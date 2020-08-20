@@ -1,0 +1,11 @@
+PROGRAMA QUE CALCULE MEDIA Y DESVIACION ESTANDAR EN UN CONJUNTO N DE NUMEROS REALES.
+
+python
+listas
+
+Lee una lista
+
+calcula la media en una funcion aparte
+calcula la desviacion estandard.
+Imprime valores.
+

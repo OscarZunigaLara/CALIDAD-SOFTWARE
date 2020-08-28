@@ -3,6 +3,7 @@ import math
 
 
 def leerNumeros(tamanoDeLista):
+    #Funcion encargada de leer una serie de numeros
     listaDeNumeros= []
     for x in range(0,tamanoDeLista):
         listaDeNumeros.append(float(input("InserteNumero")))

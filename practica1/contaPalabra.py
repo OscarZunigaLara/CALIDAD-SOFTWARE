@@ -69,12 +69,8 @@ class contadorDeLineas:
         self.filesReaded = newFilesReaded
 
 
-    def contarFunciones(self):
-        #TERMINAR
-        pass
-
     def toString(self):
-        print("TOTAL LINES = ", self.totalLines, "  EMPTY LINES = ", self.emptyLines, "  DECLARED FUNCTIONS = ", self.declaredFunctions, "COMMENTS = ", self.comments, "codeLines = ", len(self.filesReaded)," \nFILES IN THIS FOLDER = ", self.filesInThisFolder, "classes", self.classes)
+        print("TOTAL LINES = ", self.totalLines, "  EMPTY LINES = ", self.emptyLines, "  DECLARED FUNCTIONS = ", self.declaredFunctions, "COMMENTS = ", self.comments, "Lines of code = ", len(self.filesReaded)," \nFILES IN THIS FOLDER = ", self.filesInThisFolder, "classes", self.classes)
 
     def leerLineas(self):
         for x in self.filesReaded:

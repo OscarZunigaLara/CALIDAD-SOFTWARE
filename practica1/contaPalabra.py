@@ -85,7 +85,6 @@ class contadorDeLineas:
 
     def countClasses(self):
         for x in self.filesReaded:
-
             if (x[0] == 'c' and x[1] == 'l' and x[2] == 'a' and x[3] == 's' and x[3] == 's'):
                 #print(x)
                 self.classes +=1

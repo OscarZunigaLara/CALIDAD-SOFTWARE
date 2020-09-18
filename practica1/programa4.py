@@ -88,9 +88,6 @@ class programa4():
         print("L  = ", self.l)
         print("VL = ", self.vl)
 
-    def programa4(self, dic):
-        self.paso1()
-        pass
 
 
 if __name__ == '__main__':

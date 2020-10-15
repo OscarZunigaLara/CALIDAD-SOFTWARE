@@ -1,5 +1,4 @@
 import math
-import functools
 
 def gamma(n):
     #print("n", n)

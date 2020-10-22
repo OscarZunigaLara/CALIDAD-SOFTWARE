@@ -1,5 +1,8 @@
 import math
 
+
+
+
 def gamma(n):
     #print("n", n)
     #print(n)
@@ -29,7 +32,7 @@ def gamma(n):
 
 
 def simpsonRule(x0, xf,setNumSeg,dof):
-    print("Simpson Rule")
+   #print("Simpson Rule")
 
     w = xf / setNumSeg
 

@@ -53,10 +53,10 @@ class practica3():
         print("prxy ",self.prox )
 
     def test1(self):
-        self.calculateVariance(self);
-        self.calculateParameters(self);
-        self.calculateCorrelation(self);
-        self.calculatePrediction(self);
+        self.calculateVariance(self)
+        self.calculateParameters(self)
+        self.calculateCorrelation(self)
+        self.calculatePrediction(self)
         self.printTest(self);
 
 
